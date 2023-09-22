@@ -8,7 +8,7 @@ int main ()
     return 0;
 }
 
-int nombre_secondes(int heures,int minutes,int secondes)
+int nombre_secondes(int minutes,int secondes,int heures)
 {
     int total=0;
     total = heures *60 *60;
